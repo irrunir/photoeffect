@@ -1,1 +1,30 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="icon" href="favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><meta name="description" content="Image Editor"><link rel="manifest" href="/manifest.json"><title>Editor</title><script defer="defer" src="js/main.67020525.js"></script><link href="css/main.4f2766d6.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html><html lang="en"><head> <script type="text/javascript">
+
+document.onkeydown = function (e) {
+ if(e.keyCode == 123) {
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+return false;
+}
+if(e.ctrlKey && e.keyCode == 85) {
+return false;
+}}
+document.addEventListener('contextmenu', function(e) {
+e.preventDefault();
+});
+
+ </script> <script type="text/javascript">
+      var hook = true;
+      window.onbeforeunload = function() {
+        if (hook) {
+return "‌"
+        }
+      }
+      function unhook() {
+        hook=false;
+      }
+</script> <meta charset="utf-8"><link rel="icon" href="favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><meta name="description" content="Image Editor"><link rel="manifest" href="/manifest.json"><title>Editor</title><script defer="defer" src="js/main.67020525.js"></script><link href="css/main.4f2766d6.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
